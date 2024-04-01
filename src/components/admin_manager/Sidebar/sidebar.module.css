@@ -1,0 +1,70 @@
+.container {
+  position: sticky;
+  top: 40px;
+  padding: 2%;
+  color: aliceblue;
+  background-color: rgb(2, 3, 30);
+  width: 25%;
+  height: 100vh;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.userDetail {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+.AdminIcon{
+  color:  rgb(123, 145, 163);
+  font-size: 30px;
+}
+.username {
+  font-weight: 500;
+}
+
+.userTitle {
+  font-weight: bold;
+  color: rgb(97, 171, 237);
+}
+
+.list {
+  list-style: none;
+}
+
+.cat {
+  color: rgb(149, 196, 238);
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.logout:hover {
+  background-color: #2e374a;
+}
+.menuToggle{
+  display: none;
+}
+.menuIcon{
+  color: rgb(97, 171, 237);
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%; 
+    height: auto;
+  }
+  .menuToggle{
+    display: block;
+  }
+
+  .user {
+    flex-direction: row;
+  }
+}

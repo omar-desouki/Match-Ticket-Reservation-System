@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    background-color: rgb(174, 184, 192);
+  }
+  
+  /* .menu {
+    flex: 1;
+    padding: 20px;
+    min-height: 100vh;
+  }
+   */
+  .content {
+    flex: 4;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* padding: 20px; */
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .content {
+       margin-top: 5%;
+    }
+      
+  
+  }
+  

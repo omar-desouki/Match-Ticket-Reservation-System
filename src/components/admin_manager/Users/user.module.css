@@ -1,0 +1,29 @@
+.container{
+    background-color: rgb(29, 31, 60);
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 20px;
+  }
+  
+  .table{
+    width: 100%;
+  }
+ 
+  .table td{
+    padding: 10px;
+  }
+  .thead{
+    border-bottom: 2px solid aliceblue;
+  }
+  .btnn {
+    border-radius: 10px;
+    background-color: rgb(188, 0, 0); 
+    padding: 7%;
+    color: white;
+    border: none;
+    cursor: pointer; 
+  }
+  .btnn:hover {
+    background-color: darkred; 
+  }

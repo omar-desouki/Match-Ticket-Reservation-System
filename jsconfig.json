@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": ".",
+    "jsx": "react",
+    "module": "commonjs",
+    "paths": {
+      "@/*": ["./*"],
+      "@src/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@models/*": ["./src/models/*"],
+      "@api/*": ["./src/api/*"],
+      "@public/*": ["./public/*"],
+      "@images/*": ["./public/images*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "build"]
+}
